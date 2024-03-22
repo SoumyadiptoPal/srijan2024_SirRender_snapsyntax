@@ -1,28 +1,32 @@
-body{
+.footer_cont{
     background-color: black;
-    font-family: "Roboto",sans-serif;
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
 }
 
 .left{
-    position: absolute;
-    top:0;
-    left:0;
+    /* position: relative; */
     display: flex;
     flex-direction: column;
+    width: 30vw;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
 }
 .left.avatar{
     color: white;    
 
 }
 left.profile_image{
-    position:absolute;
+    /* position:absolute; */
     bottom:0;
     left:0;
 }
 
 .right{
-    position: absolute;
+    /* position: absolute; */
     top:0;
     right:0;
     display: flex;
@@ -32,19 +36,16 @@ left.profile_image{
 }
 
 .right.topinfo{
-    position:absolute;
+    /* position:absolute; */
     color:white;
     top:0;
     right: 0;
 
 }
-.right.bottominfo{
-    position: relative;
-    color:white;
-    bottom: 0;
-    right:0;
+.bottominfo{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .right.bottominfo.projects{
     position:relative;
