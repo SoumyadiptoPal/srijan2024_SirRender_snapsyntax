@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    font-family: "Roboto",sans-serif;
+    color: white;
+}
+
+.left{
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+    flex-direction: column;
+}
+.left.avatar{
+    color: white;    
+
+}
+left.profile_image{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+.right{
+    position: absolute;
+    top:0;
+    right:0;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    gap: 20%;
+}
+
+.right.topinfo{
+    position:absolute;
+    color:white;
+    top:0;
+    right: 0;
+
+}
+.right.bottominfo{
+    position: relative;
+    color:white;
+    bottom: 0;
+    right:0;
+    display: flex;
+    flex-direction: row;
+}
+.right.bottominfo.projects{
+    position:relative;
+    float:left;
+    color:white;
+    left:0;
+    margin-right: 10px;
+}
+.right.bottominfo.socials{
+    position:relative;
+    float:right;
+    color:white;
+    right:0;
+}
+
+a{
+    color:white;
+}
