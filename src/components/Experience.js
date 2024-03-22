@@ -11,6 +11,8 @@ const Experience = () => {
         <div style={{width:"30vw"}}>{/* Empty div fro styling */}</div>
         <div style={{width:"70vw"}}>
             <ExpItem/>
+            <ExpItem/>
+            <ExpItem/>
         </div>
       </div>
     </div>
@@ -21,8 +23,8 @@ export default Experience;
 
 const ExpItem=()=>{
     return(
-        <div>
-            <div style={{}}>
+        <div style={{height:"150px"}}>
+            <div style={{fontSize:"30px", fontWeight:"700"}}>
                 Crosby
             </div>
             <div style={{display:"flex", flexDirection:"row"}}>
